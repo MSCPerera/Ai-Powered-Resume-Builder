@@ -26,11 +26,11 @@ const ResumePreview = ({data, template, accentColor, classes = ""}) => {
             {renderTemplate()}
         </div>
 
-        <style jsx>
+        <style jsx="true">
             {`
             @page {
                 size: letter;
-                margine: 0;
+                margin: 0;
             }
             @media print {
                 html, body {
@@ -50,7 +50,7 @@ const ResumePreview = ({data, template, accentColor, classes = ""}) => {
                     top: 0;
                     width: 100%;
                     height: auto;
-                    margine: 0;
+                    margin: 0;
                     padding: 0;
                     box-shadow: none !important;
                     border: none !important;
